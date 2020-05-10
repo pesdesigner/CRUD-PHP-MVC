@@ -6,11 +6,11 @@ class IndexController extends Action {
 
     public function index(){
         $this->view->dados = array('sofa','casa','cadeado');
-        $this->render('index');
+        $this->render('index', 'layout1');
     }
     public function sobreNos(){
         $this->view->dados = array('note','mouse','cadeado');
-        $this->render('sobreNos');
+        $this->render('sobreNos', 'layout2');
     }
 }
 
