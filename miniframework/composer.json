@@ -1,0 +1,19 @@
+{
+    "name": "miniframework",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "authors": [
+        {
+            "name": "Paulo Eduardo",
+            "email": "contato@graficoeweb.com.br",
+            "homepage": "https://graficoeweb.com.br/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+}
